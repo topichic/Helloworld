@@ -117,61 +117,47 @@ text
 
 ## 📈 Диаграммы Mermaid
 
-### **1. Распределение технологий в проекте:**
-
-```mermaid
-block-beta
-columns 4
-    block:1
-        Python("Python<br/>40%")
-        space
-    end
-    block:2
-        JavaScript("JavaScript<br/>25%")
-        space
-    end
-    block:3
-        Git("Git/GitHub<br/>20%")
-        space
-    end
-    block:4
-        Markdown("Markdown<br/>15%")
-        space
-    end
-    
-    style Python fill:#3776AB,color:#fff,stroke:#333
-    style JavaScript fill:#F7DF1E,color:#000,stroke:#333
-    style Git fill:#F1502F,color:#fff,stroke:#333
-    style Markdown fill:#083FA1,color:#fff,stroke:#333
-```
-
-### **2. Процесс работы над проектом:**
-
+### **Использование технологий:**
 ```mermaid
 graph TD
-    Start[🎯 Начало] --> Plan[📋 Планирование]
-    Plan --> Code[💻 Написание кода<br/>Python/JavaScript]
-    Plan --> Docs[📝 Создание README<br/>Markdown]
-    Code --> Test[🧪 Тестирование]
-    Docs --> Test
-    Test --> Git[📌 Git операции]
-    Git --> GitHub[🌐 Загрузка на GitHub]
-    GitHub --> Done[✅ Проект завершен]
+    A[Codespace] --> B[Git]
+    A --> C[Markdown]
+    A --> D[Python/JS]
+    B --> E[GitHub]
+    C --> F[README.md]
+    D --> G[Примеры кода]
+    E --> H[Публикация проекта]
+    F --> H
+    G --> H
+    
+    style A fill:#5865F2,color:#fff
+    style H fill:#238636,color:#fff
 ```
-
-### **3. Визуализация технологического стека:**
+### **Распределение времени:**
 
 ```mermaid
-graph TB
-    Project["Проект Hello World"] --> TechStack["Технологический стек"]
-    TechStack --> Languages["Языки программирования"]
-    TechStack --> Tools["Инструменты разработки"]
-    TechStack --> DocsTools["Инструменты документации"]
+graph LR
+    subgraph "⏰ Распределение времени"
+        A["40%<br/>Кодирование"] --- 
+        B["25%<br/>Документация"] --- 
+        C["20%<br/>Тестирование"] --- 
+        D["10%<br/>Настройка"] --- 
+        E["5%<br/>Деплой"]
+    end
     
-    Languages --> Python["Python 40%"]
-    Languages --> JavaScript["JavaScript 25%"]
-    
-    Tools --> GitTool["Git/GitHub 20%"]
-    
-    DocsTools --> MarkdownTool["Markdown 15%"]
+    style A fill:#4CAF50,color:#fff
+    style B fill:#2196F3,color:#fff
+    style C fill:#FF9800,color:#fff
+    style D fill:#9C27B0,color:#fff
+    style E fill:#F44336,color:#fff
 ```
+### 🖼️ Изображения
+1. **Логотип проекта**
+https://via.placeholder.com/800x200/5865F2/FFFFFF?text=Hello+World+Project+in+Codespace&font=roboto
+
+2. **Скриншот Codespace**
+https://via.placeholder.com/800x400/00B2A9/FFFFFF?text=GitHub+Codespace+Interface+Preview
+
+3. **Структура файлов**
+https://via.placeholder.com/600x300/FF6B6B/FFFFFF?text=Project+File+Structure+in+Explorer
+
