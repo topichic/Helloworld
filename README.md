@@ -152,11 +152,9 @@ graph LR
     style E fill:#F44336,color:#fff
 ```
 ### 🖼️ Изображения
-1. **Логотип проекта**
-https://via.placeholder.com/800x200/5865F2/FFFFFF?text=Hello+World+Project+in+Codespace&font=roboto
+![Альтернативный текст](https://https://avatars.mds.yandex.net/i?id=cdc2f0198256e5335542bd81c448802ecd3c1283-9066514-images-thumbs&n=13/logo.png)
 
-2. **Скриншот Codespace**
-https://via.placeholder.com/800x400/00B2A9/FFFFFF?text=GitHub+Codespace+Interface+Preview
+![Альтернативный текст](https://https://avatars.mds.yandex.net/i?id=cdc2f0198256e5335542bd81c448802ecd3c1283-9066514-images-thumbs&n=13/logo.png)
 
 3. **Структура файлов**
 https://via.placeholder.com/600x300/FF6B6B/FFFFFF?text=Project+File+Structure+in+Explorer
