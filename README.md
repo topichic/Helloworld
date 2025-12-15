@@ -153,10 +153,25 @@ graph LR
 ```
 ### 🖼️ Изображения
 ### 1. Логотип проекта
-<img src="https://via.placeholder.com/800x200/5865F2/FFFFFF?text=Hello+World+Project+in+Codespace&font=roboto" alt="Логотип Hello World" width="600" />
+![Иконка проекта](https://cdn-icons-png.flaticon.com/512/8844/8844255.png)
 
 ### 2. Скриншот Codespace
-<img src="https://via.placeholder.com/800x400/00B2A9/FFFFFF?text=GitHub+Codespace+Interface+Preview" alt="Интерфейс Codespace" width="600" />
+![Логотип Codespace](https://www.ykcgrup.com.tr/wp-content/uploads/2017/11/Codespace.png)
+## Советы:
+**Используйте автосохранение** — не нужно Ctrl+S
 
-### 3. Структура файлов
-<img src="https://via.placeholder.com/600x300/FF6B6B/FFFFFF?text=Project+File+Structure+in+Explorer" alt="Структура файлов" width="400" style="border: 1px solid #ddd;" />
+**Копируйте терминал** — правый клик → Copy
+
+**Предпросмотр Markdown** — Ctrl+Shift+V
+
+**Меняйте тему** — File → Preferences → Theme
+
+## 🤝 Вклад в проект
+### В Codespace это проще простого:
+
+Внесите изменения в файлы
+
+Используйте встроенный Git
+
+Сделайте коммит прямо из интерфейса
+
